@@ -76,6 +76,7 @@ spec:
     metadata:
       labels:
         app: mysql
+        tier: database
     spec:
       containers:
       - image: mysql:5.7
